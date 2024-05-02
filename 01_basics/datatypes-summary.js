@@ -20,13 +20,13 @@ let myObj = {
     age : 22
 }
 
-const myFunction =   function(){
+/*   const myFunction =   function(){
             console.log("Hellow World")
    }
  
    myFunction()
 
-   console.log(typeof myFunction)
+   console.log(typeof myFunction)  */
 
    /*All Components DataTypes
    All return types in this lecture..
@@ -44,8 +44,30 @@ const myFunction =   function(){
    myObj = object
    myFunction = function
 
-
-
+   */
+ 
+   /* Lecture no 10.. There are two types of memory, Stack and Heap memory
+   Stack (Primitives), Heap (Reference)
    
    */
+   
+let myYoutubeName = "hitesh"
+let anotherName = myYoutubeName
 
+
+anotherName = "Sharma"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let userOne = {
+    email : "userhiesh@google.com",
+    upid : "54564865465"
+
+}
+
+let userTwo = userOne
+
+ userTwo.email = "userTwo@gmail.com"
+console.log(userOne)
+console.log(userTwo)
